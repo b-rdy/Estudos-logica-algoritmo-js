@@ -1,7 +1,7 @@
 // cria referência ao form e aos elemtnso de resposta (pelo seu id)
 const frm = document.querySelector("form");
-const resp1 = document.querySelector("#outResp1");
-const resp2 = document.querySelector("#outResp2");
+const resp1 = document.querySelector("h3");
+const resp2 = document.querySelector("h4");
 // cria um gatilho de eventos quando o botão "submit" for clicado
 frm.addEventListener("submit", (e) => {
   // obtém o conteúdo dos campos
